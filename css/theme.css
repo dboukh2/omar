@@ -1,14 +1,32 @@
-@font-face{
-   font-family: 'kaff';
-    src: url('29lt_kaff-webfont.ttf') format('truetype'),
-    url('._29LT Kaff-Regular.OTF')
-    format('OpenType'),
-    url('29lt_kaff-webfont.woff') format('woff'),
-    url('29lt_kaff-webfont.woff2') format('woff2'),
-    url('29LTKaff-Regular.eot'),
-    url('29LTKaff-Regular.eot?#iefix') format('embedded-opentype'),
-    url('29LTKaff-Regular.svg#29LTKaff-Regular') format('svg'),
-    url('29LTKaff-Regular.svg') format('svg');
+
+@font-face {
+    font-family: kaffmedium;
+    src:url(../css/29LT\ Kaff-Medium.OTF);
+    font-style: normal;
+}
+@font-face {
+    font-family: kafflight;
+    src:url(../css/29LT\ Kaff-Light.OTF);
+    font-style: normal;
+}
+@font-face {
+    font-family: kaffbold;
+    src:url(../css/29LT\ Kaff-Bold.OTF);
+    font-style: normal;
+}
+@font-face {
+    font-family: kaffregular;
+    src:url(../css/29LT\ Kaff-Regular.OTF);
+    font-style: normal;
+}
+@font-face {
+    font-family: MyriadArabicBold;
+    src:url(../css/29LT\ MyriadArabic-Bold.otf);
+    font-style: normal;
+}
+@font-face {
+    font-family: MAR;
+    src:url(../css/29LT\ Bahij_Myriad_Arabic-Regular.ttf);
     font-style: normal;
 }
 *{
@@ -51,6 +69,8 @@ cursor:pointer;
 #hello{
     
     color:#737B7F;
+    font-family: kaffregular;
+    font-size: 25pt;
 }
 #home .body{
 display:flex;
@@ -58,7 +78,7 @@ justify-content:center;
 }
 #home .body .holders{
 justify-content:space-between;
-margin-top:6px;
+margin-top:60px;
 }
 #title{
 flex: auto;
@@ -73,18 +93,19 @@ background-color:#FADC2F;
 border:none;
 padding:0 20px;
 margin:3px 10px 5px 3px;
-font-family:kaff;
+font-family:MyriadArabicBold;
 font-weight:540;
 font-size: 20;
 width:90px;
 height: 30px;
 color: black;
-right: 160;
+right: 30;
 border-radius: 7px;
 color: #737B7F;
 font-weight: bold;
 position:relative;
 box-shadow: 6px 6px 6px #B2B5B7;
+
 }
  .btn:hover ,.btn:focus , .btn:active{
 color:black;
@@ -93,31 +114,37 @@ outline:0;
 }
 #hash{
 position:relative;
-left:910px; 
-height: 22px;
+left:935px; 
+height: 20pt;
+
 }
 #share{
 display: inline;
 position: relative;
-left:600px;
+left:650px;
 bottom: 20px;
 font-weight: 550;
 color:#5D6567;
+font-family:kaffmedium;
+font-size: 20pt;
 }
 #sub{
+margin-top: 15px;
 position: relative;
 top: 30px;
-right: -100px;
-color:#5D6567;
+right: 3px;
+color:#5D6567;  
 font-size: 18;
-font-weight: 100;
+font-weight: 110;
+font-family:kaffregular;
+font-size: 15pt;
 }
 #dotted{
 max-width: 98%;
 border:2px dashed #B2B5B7;
 display:flex;
 flex-direction:column;
-align-items:center;
+align-items:flex-end;
 height: 120px;
 margin-top: 30px;
 border-radius: 10px;  
@@ -188,3 +215,6 @@ border-radius: 10px;
 margin-bottom: 30px;
 
 }
+.theme-img{width:10px;height:10px;margin-right:113px; z-index:2;position: relative;}
+.theme-cross{width:80px;background-color: #FFDE17;text-align: center;margin-right:40px;margin-top:-5px;z-index:1;position: relative;font-family:MAR;font-size:19px;}
+.margin-top15{margin-top:15px;}

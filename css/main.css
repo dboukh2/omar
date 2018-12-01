@@ -646,16 +646,18 @@ a :hover{
      max-height:100%;
  }
 .tac-title{font-family:kaffbold;direction: rtl;font-size:90.96pt;margin-top:226.68px;text-align: center;}
-.tac-sub-title{font-family:kaffmedium;direction: rtl;font-size:36pt;margin-top:200px;margin-bottom:58.047244094px;}
-.tac-text{direction: rtl;font-family:kafflight;font-size:30px;line-height:43pt;}  
+.tac-sub-title{font-family:kaffmedium;direction: rtl;font-size:36pt;margin-top:50px;margin-bottom:30px;}
+.tac-text{direction: rtl;font-family:kafflight;font-size:25px;line-height:43pt;}  
 .sp-title{font-family:kaffbold;direction: rtl;font-size:90.96pt;margin-top:226.68px;text-align: center;}
-.sp-sub-title{font-family:kaffmedium;direction: rtl;font-size:36pt;margin-top:200px;margin-bottom:58.047244094px;}
-.sp-text{direction: rtl;font-family:kafflight;font-size:30px;line-height:43pt;}
+.sp-sub-title{font-family:kaffmedium;direction: rtl;font-size:36pt;margin-top:100px;margin-bottom:58.047244094px;}
+.sp-text{direction: rtl;font-family:kafflight;font-size:25px;line-height:43pt;}
 .p-title{}
 .p-sub-title{}
 .p-text{}
 .mr96{margin-right: 100px;}
-.marginb50{margin-bottom: 50px;}
+.marginb50{margin-bottom: 20px;}
+.marginel110{margin-left: 110px;}
+.textaline-c{text-align: center;}
 a:hover { 
     font-weight: bold;
     color: black;
