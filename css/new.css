@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: kaffmedium;
+    src:url(../css/29LT\ Kaff-Medium.OTF);
+    font-style: normal;
+}
+@font-face {
+    font-family: kafflight;
+    src:url(../css/29LT\ Kaff-Light.OTF);
+    font-style: normal;
+}
+@font-face {
+    font-family: kaffbold;
+    src:url(../css/29LT\ Kaff-Bold.OTF);
+    font-style: normal;
+}
+@font-face {
+    font-family: kaffregular;
+    src:url(../css/29LT\ Kaff-Regular.OTF);
+    font-style: normal;
+}
+@font-face {
+    font-family: MyriadArabicBold;
+    src:url(../css/29LT\ MyriadArabic-Bold.otf);
+    font-style: normal;
+}
+@font-face {
+    font-family: MAR;
+    src:url(../css/29LT\ Bahij_Myriad_Arabic-Regular.ttf);
+    font-style: normal;
+}
+
+
+html,body{
+margin:0;
+padding:0;
+width:100%;
+height:100%;
+font-family: kaff;
+}
+
+.container{
+width:89%;
+max-width:100%;
+}
+#home .header{
+display:flex;
+justify-content:center;
+border-bottom:0.2px solid #9DA4AB;
+height:97px;
+align-items:center;
+background-color: #FFDE17;
+}
+
