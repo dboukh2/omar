@@ -58,7 +58,7 @@ background-color: #FBDD2F;
 display:flex;
 justify-content:space-between;
 align-items:center;
-max-width: 97%;
+max-width: 100%;
 }
 #logo{
 height:50px;
@@ -114,14 +114,13 @@ outline:0;
 }
 #hash{
 position:relative;
-left:935px; 
+left: 
 height: 20pt;
-
 }
 #share{
 display: inline;
 position: relative;
-left:650px;
+left:
 bottom: 20px;
 font-weight: 550;
 color:#5D6567;
@@ -132,7 +131,7 @@ font-size: 20pt;
 margin-top: 15px;
 position: relative;
 top: 30px;
-right: 3px;
+right: 
 color:#5D6567;  
 font-size: 18;
 font-weight: 110;

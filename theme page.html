@@ -27,10 +27,10 @@
                 <img id="hash" src="img-theme/Asset%201.png">
                 <h3 id="share">شاركنا ـ شغفك</h3>
                 <p id="sub">كلما اخترت مواضيع أكثر كلما وفرنا لك المزيد من المقالات</p>
-                </div>
+                </div>  
             <div id="dotted" class="row align-items-center" >
-            	<div style="display:flex;margin-top: 10px;margin-right: 15px;direction: rtl;">
-            		<div style="margin-right: 10px;">
+            	<div class="div1" style="display:flex;margin-top: 10px;margin-right: 15px;direction: rtl;">
+            		<div class="div2" style="margin-right: 10px;">
             			<img src="img-theme/remove1.png" height="10" width="10" style="margin-right: 64px;" >
             			<div style="height:30px;width: 70px;background-color:#FFDE17;margin-top: -4px;margin-left:4px;text-align: center;font-family: MAR;font-size: 18pt;">كتب</div>
             		</div>
@@ -46,13 +46,28 @@
             			<img src="img-theme/remove1.png" height="10" width="10"style="margin-right: 64px;" >
             			<div style="height:30px;width: 70px;background-color:#FFDE17;margin-top: -4px;margin-left:4px;text-align: center;font-family: MAR;font-size: 18pt;">فلسفه</div>
             		</div>
-            		<div style="margin-right: 10px;">
+            		<div style="margin-right: 10px;visibility: hidden;">
             			<img src="img-theme/remove1.png" height="10" width="10"style="margin-right: 64px;" >
             			<div style="height:30px;width: 70px;background-color:#FFDE17;margin-top: -4px;margin-left:4px;"></div>
             		</div>
+                    <div style="margin-right: 10px;visibility: hidden;">
+                        <img src="img-theme/remove1.png" height="10" width="10"style="margin-right: 64px;" >
+                        <div style="height:30px;width: 70px;background-color:#FFDE17;margin-top: -4px;margin-left:4px;"></div>
+                    </div>
+                    <div style="margin-right: 10px;visibility: hidden;">
+                        <img src="img-theme/remove1.png" height="10" width="10"style="margin-right: 64px;" >
+                        <div style="height:30px;width: 70px;background-color:#FFDE17;margin-top: -4px;margin-left:4px;"></div>
+                    </div>
+                    <div class="div3" style="margin-right: 10px;visibility: hidden;">
+                        <img src="img-theme/remove1.png" height="10" width="10"style="margin-right: 64px;" >
+                        <div style="height:30px;width: 70px;background-color:#FFDE17;margin-top: -4px;margin-left:4px;"></div>
+                    </div>
 
             	</div>
 
+            </div>
+            <div style="border: 2px dotted red;">
+            	
             </div>
             
 
@@ -63,4 +78,11 @@
            </div> 
       </div>
     </body>
-</html>
+    <script type="text/javascript">
+        $(document).ready(function(){
+    $(".div2").click(function(){
+        $(".div3").css(visibility:hi);
+    });
+});
+    </script>
+</html> 
